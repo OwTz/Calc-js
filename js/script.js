@@ -1,7 +1,12 @@
 console.log("a calculadora está pronto !");
+const textarea = document.getElementsByTagName('textarea')
 
 
-function calcSoma(){
+function addinArea(a){
+    textarea.innerText += `${a}`
+}
 
+function calcSoma(a,b){
+    textarea
 
 }

@@ -47,18 +47,23 @@ body{
     background-color: #1c1c1c;
     opacity: 32%;
     color: white;
-    
-    
 }
-.btn div{
-
-    display: grid;
-    grid-template-columns: 1fr 1fr ;
-    
+.btn:hover{
+    background-color: #006593;
+}
+button{
+    border: solid;
+    border-radius: 20px;
+    width: 2.3rem;
+    height: 3.2rem;
 }
 #class-btn-calculator{
     text-align: center;
     align-items: center;
+    display: grid;
+    grid-template-columns: repeat(3, 0.1fr);
+    grid-template-rows: repeat(3, 1fr);
+    gap: 1px; /* Espaçamento entre os itens */
 }
 #class-btn-calculator textarea{
     font-size: 32px;
