@@ -13,6 +13,7 @@ O propósito deste projeto é fazer uma calculadora totalmente utilizando HTML,C
 
 
 # 🔍️ Documentação 
+|---|---|
 | <h3> Button </h3> | <p>Itens onde serão selecionandos para iniciar operações lógicas. </p>|
 | <h3> Text Area </h3> | <p>onde irá apresentar, as operações e o processo feito. </p>|
 |---|---|
