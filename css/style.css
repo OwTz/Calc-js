@@ -1,0 +1,68 @@
+:root{
+    --darkmode: #0b0b0b;
+    --textdarkmode: #006593;
+    --background-item:#101519;
+}
+body{
+    background-color: var(--darkmode);
+}
+#menu-contain{
+    text-decoration: none;
+    align-items: center;
+}
+#menu-contain ul {
+    display: flex;
+    text-decoration: none;
+
+}
+#menu-contain ul li{
+    font-size: 25px;
+    text-decoration: none;
+    padding: 1.8rem;
+    margin: 0.5rem;
+    list-style: none;
+    background-color: #1c1c1c;
+    opacity: 52%;
+   
+    border-color: var(--background-item);
+    border-radius: 20px;
+}
+.contain-calculator{
+
+}
+#menu-contain ul li a{
+    text-decoration: none;
+
+}
+#menu-contain ul li a:hover{
+    color:  var(--textdarkmode);
+    
+}
+.btn{
+    font-size: 25px;
+    text-decoration: none;
+    padding: 1.8rem;
+    margin: 0.5rem;
+    list-style: none;
+    background-color: #1c1c1c;
+    opacity: 32%;
+    color: white;
+    
+    
+}
+.btn div{
+
+    display: grid;
+    grid-template-columns: 1fr 1fr ;
+    
+}
+#class-btn-calculator{
+    text-align: center;
+    align-items: center;
+}
+#class-btn-calculator textarea{
+    font-size: 32px;
+}
+#class-btn-calculator textarea{
+    font-size: 32px;
+}
