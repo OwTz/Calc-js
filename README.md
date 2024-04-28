@@ -4,12 +4,11 @@ O propósito deste projeto é fazer uma calculadora totalmente utilizando HTML,C
 
 # 💻️ Tecnologias
 
-| HTML | [estrutura do site ](https://www.w3schools.com/html/)|
+| HTML | [estrutura do site ](https://www.w3schools.com/html/) |
 
-| CSS | [Estilização do site ](https://www.w3schools.com/css/)|
-|Java Script|[Programação e lógica](https://developer.mozilla.org/pt-BR/docs/web/javascript/guide/introduction)|
-
-|---|----|
+| CSS | [Estilização do site ](https://www.w3schools.com/css/) |
+|Java Script | [Programação e lógica](https://developer.mozilla.org/pt-BR/docs/web/javascript/guide/introduction) |
+|----|----|
 
 
 # 🔍️ Documentação 
