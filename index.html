@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="icon" type="image/x-icon" href="css/imgs/vector-calculator-icon.jpg">
     <link rel="stylesheet" href="css/style.css">
-    <script src="js/script.js"></script>
+    <script src="js/script.js" defer></script>
     <title>Calculadora JS </title>
 </head>
 <body>
@@ -18,16 +18,17 @@
             </li>
             <li>
                 <a href="#">
-                Criador
+                    Criador
                 </a>
             </li>
         </ul>
     </nav>
 
     <section class="contain-calculator">
-        <textarea name="" id="" cols="30" rows="10" placeholder="Sua conta irá aparecer aqui">
-        </textarea>
-        
+        <label>
+            <textarea name="conta" id="textarea" cols="30" rows="10" placeholder="1+1=?">
+            </textarea>
+        </label>
         <div id="class-btn-calculator">
          
             <button class="btn" id="btn_1"> 1 </button>
@@ -41,6 +42,17 @@
             <button class="btn" id="btn_9"> 9 </button>
             <button class="btn" id="btn_0"> 0 </button>
         </div>
+
+        <div>
+            <button class="btn" id="btn_funs"> + </button>
+            <button class="btn" id="btn_funs"> - </button>
+        </div>
     </section>
+
+    <footer class="foot-copy">
+       Site desenvolvido por   <a href="https://github.com/OwTz">Owtz </a>&copy;
+       <p> open source Project </p> 
+       
+    </footer>
 </body>
 </html>
