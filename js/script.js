@@ -1,5 +1,9 @@
 console.log("a calculadora está pronto !");
 const textarea = document.getElementById('textarea');
+const btn_soma = document.getElementById('btn_soma');
+
+var v_1 = null;
+var v_2 = null;
 
 //* botões *//
 const v1 = document.getElementById('btn_1');
@@ -40,13 +44,26 @@ v8.addEventListener("click", () => {
 v9.addEventListener("click", () => {
     innerArea(9)
 })
+
 function innerArea(a){
    textarea.value += `${a}`
    console.log(`colocado com sucesso o valor ${a}`)
 }
 
-
-function calcSoma(){
-    textarea.value += 1
+btn_soma.addEventListener('click',() => {
+   var valor1 = textarea.value;
+   console.log(valor1);
+   if(v_1 == null){
+        v_1 = valor1;
+   } if(v_1 == true && v_2 == null) {
+        V_2 = valor1;
+   } else {
+        calcSoma(v_1,V_2)
+   }
+} )
+function calcSoma(a,b){
+    var resultado = a+b;
+    textarea.innerText = `${resultado}`
+    return console.log(a+b);
 
 }

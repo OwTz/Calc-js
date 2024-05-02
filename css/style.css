@@ -28,7 +28,11 @@ body{
     border-radius: 20px;
 }
 .contain-calculator{
-
+    background-color: #00649318;
+    position: absolute;
+    padding: 23px;
+    border-radius: 24px;
+    border: solid var(--textdarkmode);
 }
 #menu-contain ul li a{
     text-decoration: none;
@@ -74,6 +78,7 @@ button{
 .foot-copy{
     text-align: center;
     color: white;
+    bottom: auto;
 }
 .foot-copy a{
     text-decoration: none;
@@ -86,9 +91,17 @@ textarea{
     border: solid;
     background-color: var(--background-item);
     color: white;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 23px;
 }
 /* opções para text-area*/
 textarea{
    resize: none;
    list-style: none;
 }
+textarea:hover{
+    background-color: #091c2c;
+
+}
+
